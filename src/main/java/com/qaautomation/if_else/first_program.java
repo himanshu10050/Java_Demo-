@@ -1,4 +1,4 @@
-package com.qaautomation.If_Else_Loops;
+package com.qaautomation.if_else;
 
 // import java.math.BigInteger;
 

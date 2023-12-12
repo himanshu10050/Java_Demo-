@@ -1,4 +1,4 @@
-package com.qaautomation.Loops;
+package com.qaautomation.if_else;
 
 import java.util.Scanner;
 
