@@ -9,6 +9,11 @@ public class method_overloading {
 
     }
 
+    // you can not create a method inside a method
+    // suplkicate method-- i.e., same method name with same number of argument are
+    // not allwoed
+    // method overload ---> when the method name is same with different argument or
+    // input paramether within the same class
     public void sum() {
         System.out.println("Sum method -- 0 param");
     }
