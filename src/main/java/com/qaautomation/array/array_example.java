@@ -2,7 +2,7 @@ package com.qaautomation.array;
 
 import java.util.Arrays;
 
-import org.openqa.selenium.devtools.v114.systeminfo.SystemInfo;
+// import org.openqa.selenium.devtools.v114.systeminfo.SystemInfo;
 
 /**
  * Innerarray1
