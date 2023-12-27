@@ -1,28 +1,23 @@
 package com.qaautomation.Pattern_Program;
 
+// 333222111
+// 332211   
+// 321  
 public class new_class {
     public static void main(String[] args) {
 
-        int n = 3;
-        int n1 = 2;
-        int n2 = 1;
-        // first upper half
+        int n = 4;
+        for (int i = n; i > 0; i--) {
 
-        for (int i = n; i >= 1; i--) {
+            for (int j = n; j > 0; j--) {
+                System.out.print(" I" + i + "-" + "J" + j);
 
-            for (int j = 1; j <= i; j++) {
-                System.out.print(n);
+                // for (int k = 0; k < i; k++) {
+                // System.out.print(j);
+                // }
             }
-            for (int j = 1; j <= i; j++) {
-                System.out.print(n1);
 
-            }
-            for (int j = 1; j <= i; j++) {
-                System.out.print(n2);
-
-            }
             System.out.println();
-
         }
 
     }

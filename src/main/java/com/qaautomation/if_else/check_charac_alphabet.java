@@ -1,7 +1,5 @@
 package com.qaautomation.if_else;
 
-import java.util.Scanner;
-
 public class check_charac_alphabet {
     public static void main(String[] args) {
 
