@@ -1,5 +1,11 @@
 package com.qaautomation.Pattern_Program;
 
+// * * * * * * 
+// * * * * *   
+// * * * *     
+// * * *       
+// * *         
+// * 
 public class twelth_program {
 
     public static void main(String[] args) {
