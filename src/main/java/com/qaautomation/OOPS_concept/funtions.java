@@ -4,28 +4,28 @@ import java.util.Scanner;
 
 public class funtions {
 
-    // public static void prntFactorial(int n) {
+    public static void prntFactorial(int n) {
 
-    // if (n < 0) {
-    // System.out.println("Invalid Number");
-    // return;
+        if (n < 0) {
+            System.out.println("Invalid Number");
+            return;
 
-    // }
-    // int factorial = 1;
+        }
+        int factorial = 1;
 
-    // for (int i = n; i >= 1; i--) {
-    // factorial = factorial * i;
-    // }
-    // System.out.println(factorial);
-    // return;
-    // }
+        for (int i = n; i >= 1; i--) {
+            factorial = factorial * i;
+        }
+        System.out.println(factorial);
+        return;
+    }
 
-    // public static void main(String[] args) {
-    // Scanner sc1 = new Scanner(System.in);
-    // int n = sc1.nextInt();
+    public static void main(String[] args) {
+        Scanner sc1 = new Scanner(System.in);
+        int n = sc1.nextInt();
 
-    // prntFactorial(n);
-    // }
+        prntFactorial(n);
+    }
 
     // Print Any name Using Function
 
@@ -63,24 +63,24 @@ public class funtions {
 
     // }
 
-    // Print Product Using Function
+    // // Print Product Using Function
 
-    public static int calculateproduct(int a, int b) {
-        return a * b;
+    // public static int calculateproduct(int a, int b) {
+    // return a * b;
 
-    }
+    // }
 
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter first number ");
-        int a = sc.nextInt();
+    // Scanner sc = new Scanner(System.in);
+    // System.out.println("Enter first number ");
+    // int a = sc.nextInt();
 
-        System.out.println("Enter Second number ");
-        int b = sc.nextInt();
+    // System.out.println("Enter Second number ");
+    // int b = sc.nextInt();
 
-        System.err.println("Product of 2 numbers is " + calculateproduct(a, b));
-    }
+    // System.err.println("Product of 2 numbers is " + calculateproduct(a, b));
+    // }
 
     // public static void main(String[] args) {
     //
