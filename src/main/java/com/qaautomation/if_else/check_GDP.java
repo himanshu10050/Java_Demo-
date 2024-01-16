@@ -24,28 +24,26 @@ public class check_GDP {
         // }
         // System.out.println(gc);
 
-        // // Example 11: Find GCD of two numbers using for loop and if statement
-        Scanner sc1 = new Scanner(System.in);
-        System.out.println("Enter first number ");
-        int num1 = sc1.nextInt();
+        try (// // Example 11: Find GCD of two numbers using for loop and if statement
+                Scanner sc1 = new Scanner(System.in)) {
+            System.out.println("Enter first number ");
+            int num1 = sc1.nextInt();
 
-        Scanner sc2 = new Scanner(System.in);
-        System.out.println("Enter second  number ");
-        int num2 = sc1.nextInt();
+            System.out.println("Enter second  number ");
+            int num2 = sc1.nextInt();
 
-        int gc = 1;
+            while (num1 != num2) {
 
-        while (num1 != num2) {
+                if (num1 > num2) {
+                    num1 -= num2;
+                }
 
-            if (num1 > num2) {
-                num1 -= num2;
+                else {
+                    num2 -= num1;
+                }
             }
 
-            else {
-                num2 -= num1;
-            }
+            System.out.println("GCD: " + num1);
         }
-
-        System.out.println("GCD: " + num1);
     }
 }

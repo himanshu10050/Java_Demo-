@@ -16,10 +16,11 @@ public class circumference_Of_circle {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter radius");
-        double r = sc.nextDouble();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("enter radius");
+            double r = sc.nextDouble();
 
-        circle_circumference(r);
+            circle_circumference(r);
+        }
     }
 }

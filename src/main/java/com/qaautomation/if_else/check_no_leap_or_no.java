@@ -9,25 +9,27 @@ public class check_no_leap_or_no {
 
         System.out.println("this is first program");
 
-        Scanner red = new Scanner(System.in);
-        System.out.println("Enter a year");
-        int num = red.nextInt();
-        if (num % 4 == 0) {
-            System.out.println(num + " is leap year");
+        try (Scanner red = new Scanner(System.in)) {
+            System.out.println("Enter a year");
+            int num = red.nextInt();
+            if (num % 4 == 0) {
+                System.out.println(num + " is leap year");
 
-        } else {
-            System.out.println(num + " is not a leap year");
+            } else {
+                System.out.println(num + " is not a leap year");
+            }
         }
 
         // Example 4: check wheather year is leap or not using ternary operator?
 
         System.out.println("this is second program");
 
-        Scanner red1 = new Scanner(System.in);
-        System.out.println("Enter a year");
-        int num1 = red1.nextInt();
-        String leap = (num1 % 4 == 0) ? "leap year" : " not a leap year";
+        try (Scanner red1 = new Scanner(System.in)) {
+            System.out.println("Enter a year");
+            int num1 = red1.nextInt();
+            String leap = (num1 % 4 == 0) ? "leap year" : " not a leap year";
 
-        System.out.println(num1 + " is " + leap);
+            System.out.println(num1 + " is " + leap);
+        }
     }
 }

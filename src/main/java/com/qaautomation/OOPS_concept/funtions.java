@@ -21,10 +21,11 @@ public class funtions {
     }
 
     public static void main(String[] args) {
-        Scanner sc1 = new Scanner(System.in);
-        int n = sc1.nextInt();
+        try (Scanner sc1 = new Scanner(System.in)) {
+            int n = sc1.nextInt();
 
-        prntFactorial(n);
+            prntFactorial(n);
+        }
     }
 
     // Print Any name Using Function

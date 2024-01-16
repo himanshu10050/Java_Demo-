@@ -19,9 +19,9 @@ public class local_global_var {
     }
 
     public void sum() {
-        int i = 20; // local var for sum method
-        int j = 22;
-        int age = 36;
+        // int i = 20; // local var for sum method
+        // int j = 22;
+        // int age = 36;
 
     }
 }
