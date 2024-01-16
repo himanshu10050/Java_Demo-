@@ -1,4 +1,4 @@
-package com.Java_Exercise;
+package com.qaautomation.Function_Exercise;
 
 import java.util.Scanner;
 
