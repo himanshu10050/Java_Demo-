@@ -31,6 +31,6 @@ public class Find_Number_From_Array {
             }
 
         }
-
+        sc.close();
     }
 }

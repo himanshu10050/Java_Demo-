@@ -15,11 +15,11 @@ public class Eligble_to_vote {
 
     public static void main(String[] args) {
 
-        try (Scanner sc = new Scanner(System.in)) {
-            System.out.println("enter age : ");
-            int age = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter age : ");
+        int age = sc.nextInt();
 
-            eligible_to_vote(age);
-        }
+        eligible_to_vote(age);
+        sc.close();
     }
 }

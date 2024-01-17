@@ -7,17 +7,17 @@ public class calculator {
         char operator;
         Double num1, num2, result;
 
-        try (Scanner op = new Scanner(System.in)) {
-            System.out.println("Enter Operator + - * / % ");
+        Scanner op = new Scanner(System.in);
+        System.out.println("Enter Operator + - * / % ");
 
-            operator = op.next().charAt(0);
+        operator = op.next().charAt(0);
 
-            System.out.println("enter first number");
-            num1 = op.nextDouble();
+        System.out.println("enter first number");
+        num1 = op.nextDouble();
 
-            System.out.println("enter second number");
-            num2 = op.nextDouble();
-        }
+        System.out.println("enter second number");
+        num2 = op.nextDouble();
+        op.close();
 
         switch (operator) {
             case '+':

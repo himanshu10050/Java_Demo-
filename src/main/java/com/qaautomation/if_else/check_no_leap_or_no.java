@@ -24,12 +24,12 @@ public class check_no_leap_or_no {
 
         System.out.println("this is second program");
 
-        try (Scanner red1 = new Scanner(System.in)) {
-            System.out.println("Enter a year");
-            int num1 = red1.nextInt();
-            String leap = (num1 % 4 == 0) ? "leap year" : " not a leap year";
+        Scanner red1 = new Scanner(System.in);
+        System.out.println("Enter a year");
+        int num1 = red1.nextInt();
+        String leap = (num1 % 4 == 0) ? "leap year" : " not a leap year";
 
-            System.out.println(num1 + " is " + leap);
-        }
+        System.out.println(num1 + " is " + leap);
+        red1.close();
     }
 }

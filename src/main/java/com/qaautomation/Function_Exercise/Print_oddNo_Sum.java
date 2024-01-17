@@ -19,10 +19,10 @@ public class Print_oddNo_Sum {
     }
 
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
-            int n = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-            Print_Odd_Number_Sum(n);
-        }
+        Print_Odd_Number_Sum(n);
+        sc.close();
     }
 }
